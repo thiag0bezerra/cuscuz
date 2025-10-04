@@ -1,0 +1,30 @@
+{
+  // Configurações do Python Language Server
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.importFormat": "absolute",
+  "python.analysis.inlayHints.callArgumentNames": "partial",
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.variableTypes": true,
+  "python.analysis.languageServerMode": "default",
+  "python.analysis.typeCheckingMode": "standard",
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.terminal.activateEnvironment": true,
+  "python.terminal.focusAfterLaunch": true,
+  "python.terminal.shellIntegration.enabled": true,
+  "python.useEnvironmentsExtension": true,
+  // Ruff como linter e formatter
+  "ruff.configurationPreference": "filesystemFirst",
+  "ruff.enable": true,
+  "ruff.fixAll": true,
+  "ruff.organizeImports": true,
+  // Configurações do editor para Python
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+  },
+  "files.encoding": "utf8",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.eol": "\n",
+}
